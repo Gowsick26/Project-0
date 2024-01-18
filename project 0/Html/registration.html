@@ -1,0 +1,40 @@
+
+    <link rel="stylesheet" href="../style/registration.css">
+
+<div>
+    <div class="register-container"
+    ng-controller="registerctrl">
+        <h1 >Register Form</h1>
+        <form id="form" method="post">
+            <label for="uname">Username :</label>
+            <input type="text" placeholder="Enter name" id="uname" ng-model="uname">
+
+            <label for="email">Email :</label>
+            <input type="text" placeholder="Enter email" id="email" ng-model="email">
+
+            <label for="upass">Password :</label>
+            <input type="password" id="upass" ng-model="upass">
+
+            <label for="location">Location :</label>
+            <select id="location" ng-model="location">
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="karnataka">karnataka</option>
+                <option value="mumbai">mumbai</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+
+         <div id="signup">
+            <button ng-click="sign()">Sign Up</button>
+         </div>
+            
+        </form>
+        <br>
+
+        <form> 
+            <p>Already have account : <a href="signin.html">Sign In</a></p>
+        </form>
+    </div>
+</div>
+
+    

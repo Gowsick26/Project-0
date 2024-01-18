@@ -1,0 +1,172 @@
+{
+  "userdata": [
+    {
+      "id": 1,
+      "uname": "",
+      "email": "",
+      "pass": "",
+      "loc": ""
+    },
+    {
+      "uname": "abc",
+      "email": "2k19cse026@kiot.ac.in",
+      "pass": "123",
+      "loc": "Kerala",
+      "id": 2
+    },
+    {
+      "uname": "gowsick",
+      "email": "2k19cse026@kiot.ac.in",
+      "pass": "123456",
+      "loc": "Kerala",
+      "id": 3
+    },
+    {
+      "uname": "abc",
+      "email": "abc@gmail.com",
+      "pass": "145",
+      "loc": "Tamilnadu",
+      "id": 4
+    },
+    {
+      "uname": "gowsick",
+      "email": "2k19cse026@kiot.ac.in",
+      "pass": "123",
+      "loc": "Tamilnadu",
+      "id": 5
+    },
+    {
+      "uname": "gopi",
+      "email": "abc@gmail.com",
+      "pass": "456",
+      "loc": "Tamilnadu",
+      "id": 6
+    },
+    {
+      "uname": "gopi",
+      "email": "abc@gmail.com",
+      "pass": "123",
+      "loc": "Tamilnadu",
+      "id": 7
+    },
+    {
+      "uname": "gopi",
+      "email": "2k19cse026@kiot.ac.in",
+      "pass": "liog",
+      "loc": "Tamilnadu",
+      "id": 8
+    },
+    {
+      "uname": "as",
+      "email": "sad",
+      "pass": "sad",
+      "loc": "Tamilnadu",
+      "id": 9
+    },
+    {
+      "uname": "df",
+      "email": "sdf",
+      "pass": "fd",
+      "loc": "Tamilnadu",
+      "id": 10
+    },
+    {
+      "uname": "pain",
+      "email": "pain@gmail.com",
+      "pass": "pain123",
+      "loc": "Tamilnadu",
+      "id": 11
+    },
+    {
+      "uname": "dd",
+      "email": "dd",
+      "pass": "dd",
+      "location": "Tamilnadu",
+      "id": 12
+    },
+    {
+      "uname": "hi",
+      "email": "hi",
+      "pass": "hi",
+      "location": "Tamilnadu",
+      "id": 13
+    },
+    {
+      "uname": "aa",
+      "email": "aa",
+      "pass": "aa",
+      "location": "Kerala",
+      "id": 14
+    },
+    {
+      "uname": "bb",
+      "email": "bb",
+      "pass": "bb",
+      "location": "Tamilnadu",
+      "id": 15
+    },
+    {
+      "uname": "cc",
+      "email": "cc",
+      "pass": "cc",
+      "location": "Tamilnadu",
+      "id": 16
+    },
+    {
+      "uname": "kl",
+      "email": "kl",
+      "pass": "lkl",
+      "location": "Tamilnadu",
+      "id": 17
+    },
+    {
+      "uname": "kk",
+      "email": "kk",
+      "pass": "kk",
+      "location": "Tamilnadu",
+      "id": 18
+    },
+    {
+      "uname": "pl",
+      "email": "pl",
+      "pass": "pl",
+      "location": "Tamilnadu",
+      "id": 19
+    },
+    {
+      "uname": "pp",
+      "email": "pp",
+      "pass": "pp",
+      "location": "Tamilnadu",
+      "id": 20
+    },
+    {
+      "uname": "gg",
+      "email": "gg",
+      "pass": "gg",
+      "location": "Tamilnadu",
+      "id": 21
+    },
+    {
+      "uname": "qwe",
+      "email": "qwe",
+      "pass": "qwe",
+      "location": "Tamilnadu",
+      "id": 22
+    },
+    {
+      "uname": "nm",
+      "email": "nm",
+      "pass": "nm",
+      "location": "Tamilnadu",
+      "id": 23
+    },
+    {
+      "uname": "mani",
+      "email": "abc@gmail.com",
+      "pass": "12345",
+      "location": "karnataka",
+      "id": 24
+    }
+  ]
+}

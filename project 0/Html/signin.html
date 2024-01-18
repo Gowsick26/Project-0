@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="../style/signin.css">
+<div>
+    <div class="signin-container" ng-controller="signinctrl">
+        <h1 ng-style="{'color': 'rgb(7, 7, 7)'}">Sign in</h1>
+
+        <form  >
+            <label for="username">Username</label>
+            <input type="text" id="username" ng-model="username"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" ng-model="password"><br>
+            <button ng-click="login($event)">sign in</button>
+        </form>
+        <br>
+
+        <form>
+           If you don't have an account <a href="registration.html">sign up</a>
+        </form>
+        
+    </div>
+</div>
+    

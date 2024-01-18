@@ -1,0 +1,81 @@
+div {
+    background-color: #000000;
+    color: #10da25;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .head {
+    
+    color: rgb(255, 255, 255); 
+  }
+  .head a.home{
+      background-color: #000000;
+      color: rgb(255, 255, 255); 
+    }
+  .head a.discover {
+      background-color: #000000;
+      color: rgb(255, 255, 255); 
+      padding-left: 20px;
+    }
+    
+  .head a.genres {
+      background-color: #000000;
+      color: rgb(255, 255, 255); 
+      padding-left: 20px;
+    }
+    
+  .head a.playlist  {
+      background-color: #000000;    color: rgb(255, 255, 255); 
+      padding-left: 20px;
+   }
+  
+  .head a.signin {
+    background-color: #000000;
+      color: rgb(255, 255, 255); 
+      padding-left: 20px;
+   }
+  
+  .head a.signup {
+    background-color: #000000;
+    color: rgb(255, 255, 255); 
+    padding-left: 20px;
+  
+   }
+  
+  .head a.search {
+    background-color: #ddd;
+    color: black;
+    padding-left: 300px;
+   }
+  
+  .head a.logout {
+    background-color: #000000;
+      color: rgb(255, 255, 255);
+      padding-left: 20px;
+  
+   }
+
+   #back{
+    background-image: url("../images/headphones_table_sound_121712_300x168.jpg");
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 220vb;
+    background-size:cover ;
+    margin: 0px;
+
+   }
+   *{
+    margin: 0px;
+   }
+   #slogan{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: cursive;
+   }

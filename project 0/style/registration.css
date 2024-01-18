@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.register-container {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.register-container form label,
+.register-container form input,
+.register-container form select,
+.register-container form button,
+.register-container form a {
+    margin-bottom: 10px;
+}
+#signup{
+    margin-top: 10px;
+    padding-left: 110px;
+}

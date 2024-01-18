@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="../style/Dashboard.css">
+
+<div>
+  <header>
+     <div class="logo">YourMusic</div><br>
+     <div  class="head">
+      <a class="signin" href="#!signin">Sign In</a>
+      <a class="signup" href="#!registration">Sign up</a>
+      <button id="logout" ng-click="logout()"> Log out</button>
+  
+      <a href="../Html/registration.html"></a>
+      <input class="search" type="search" placeholder="search " ng-model="playlist_name"> 
+      <label>Genres</label>
+      <select ng-model="sortType">
+        <option value="" selected>--Genres--</option>
+        <option value="Electronic">Electronic</option>
+        <option value="Hip-Hop">Hip-Hop</option>
+        <option value="Rock">Rock</option>
+        <option value="Folk">Folk</option>
+      </select>
+      
+      <label>Mood</label>
+      <select ng-model="mood">
+        <option value="" selected>--Moods--</option>
+        <option value="Romantic">Romantic</option>
+        <option value="Peaceful">Peaceful</option>
+        <option value="Energizing">Energizing</option>
+        <option value="Cool">Cool</option>
+      </select>
+
+      <button ng-click="sort()">sort</button>
+ </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h2 ng-style="{'color': 'aliceblue'}">Welcome to YourMusic </h2>
+      <h2 id="name">{{name}}</h2>
+      <p ng-style="{'color': 'aliceblue'}">Discover the latest music and create your playlists.</p>  
+    </section>
+
+    <section class="featured">
+      <h2 ng-style="{'color': 'rgb(75, 75, 75)'}">Trending Songs</h2>
+      <div class="row">
+        <div class="column">
+          <ul class="song-list">
+            <li ng-repeat="list in songs | filter : playlist_name |filter : sortType | filter : mood  | orderBy : asc">
+              <img ng-src="{{list.artwork['150x150']}}" alt=".">
+              <div class="song-details">
+                <p id="title">{{list.title}}</p>
+                <a href="https://audius.co{{list.permalink}}" target="_blank"><p>play</p></a><br>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="../controllers/data.js"></script>
+  <script src="../service/userservice.js"></script>
+  <script src="../controllers/dashboard.js"></script>
+  
+</body>
+</html>
